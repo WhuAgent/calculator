@@ -1,0 +1,10 @@
+{
+  "group": "CalculatorGroup",
+  "links": [
+    {
+      "source": "start",
+      "target": "CalculatorGroup/calculator",
+      "type": "hard"
+    }
+  ]
+}

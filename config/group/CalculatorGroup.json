@@ -1,0 +1,32 @@
+{
+  "id":"CalculatorGroup",
+  "name": "CalculatorGroup",
+  "type":"python",
+  "title":"科学计算器",
+  "description":"根据计算任务描述生成python代码执行，并返回精确的计算结果",
+  "prompt": "",
+  "keywords": ["科学计算器", "计算智能体"],
+  "reference":"http://xxx/Scheduling/机器ID",
+  "manual":"http://wechat.com/xxxx.html",
+  "agents": ["calculator"],
+  "params":[
+    { 
+      "title":"task",
+      "name":"task",
+      "type":"String", 
+      "notnull":true, 
+      "description": "用户的计算任务",
+      "defaultValue":"" 
+    }
+  ],
+  "results":[
+    { 
+      "title":"result",
+      "name":"result",
+      "type":"String", 
+      "notnull":true, 
+      "description":"计算任务结果",
+      "defaultValue":"" 
+    }
+  ]
+}

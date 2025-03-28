@@ -1,0 +1,33 @@
+{
+    "id": "calculator",
+    "name": "calculator",
+    "description": "计算器智能体",
+    "title": "科学计算智能体",
+    "keywords": [
+        "科学计算器",
+        "计算器智能体"
+    ],
+    "manual": "http://wechat.com/xxxx.html",
+    "prompt": "根据用户需求得出结果",
+    "model": "gpt-3.5-turbo",
+    "params": [
+        {
+            "name": "task",
+            "title": "task",
+            "type": "string",
+            "notnull": true,
+            "description": "计算任务描述",
+            "defaultValue": ""
+        }
+    ],
+    "results": [
+        {
+            "name": "result",
+            "title": "result",
+            "type": "string",
+            "notnull": true,
+            "description": "计算任务结果",
+            "defaultValue": ""
+        }
+    ]
+}

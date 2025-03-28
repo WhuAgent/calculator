@@ -1,0 +1,11 @@
+build/*
+dist/*
+*.egg-info/*
+.idea/
+__pycache__/
+log/
+tbot/
+test/
+try.py
+test.ipynb
+.vscode/
