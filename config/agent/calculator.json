@@ -8,7 +8,6 @@
         "计算器智能体"
     ],
     "manual": "http://wechat.com/xxxx.html",
-    "prompt": "根据用户需求得出结果",
     "model": "gpt-3.5-turbo",
     "params": [
         {
